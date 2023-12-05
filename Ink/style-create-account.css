@@ -1,0 +1,116 @@
+@import url('InkutAntiqua/inkutantiqua.css');
+
+*
+{
+    background-color: #f2e7d5;
+    font-family: 'IA_regular';
+    color: #533317;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+   /*background-color: #ffffff;*/
+}
+
+.container {
+    max-width: 1200px; /* Increased max-width to accommodate three columns */
+    margin: 50px auto;
+    margin-top: 0px;
+    background-color: #f2e7d5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #533317;
+}
+
+h2
+{
+    font-size: 16px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.section {
+    flex: 1; /* Each section takes equal space in a row */
+    margin-right: 20px; /* Add some spacing between sections */
+    box-sizing: border-box;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+
+    margin-bottom: 5px;
+    display: block;
+    font-size: 11px;
+}
+
+input {
+    width: 75%;
+    height: 40px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 2px solid #533317;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.checkbox
+{
+    display: flex;
+}
+
+.checkbox input
+{
+    width: 18px;
+}
+
+.checkbox h5
+{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.checkmark
+{
+    height:10px;
+    width:10px;
+}
+
+.button-container
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+button {
+    background-color:#f2e7d5;
+    color: #533317;
+    border-color: #533317;
+    border-radius: 4px;
+    border-width: 2px;
+    /* Horizontal alignment */
+}
+
+button:hover {
+    background-color: #533317;
+    color: #f2e7d5;
+}
+
+@media (max-width: 600px) {
+    .section {
+        flex: 100%; /* On smaller screens, make each section take 100% width */
+        margin-right: 0;
+    }
+}
+

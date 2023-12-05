@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <!-- imports top menu html file -->
+    <script src="topmenu.js"></script>
+
+    <link rel="stylesheet" href="style-shopping-cart.css">
+</head>
+<body>
+
+    <!-- PAGE HEADER -->
+    <h2 class="shopping-cart-heading">Shopping Cart</h2>
+
+    <!-- START OF SHOPPING CART ITEMS -->
+    <div class="shopping-cart-container">
+        <div class="cart-items">
+
+            <div class="cart-item">
+                <img src="bookcovers/kafkaontheshore.jpeg" alt="Kafka on the Shore book cover" class="item-image">
+                <div class="item-details">
+                    <h3>Kafka On the Shore</h3>
+                    <p>Haruki Murakami</p>
+                    <p>Paperback</p>
+                    <p>Quantity: 1</p>
+                    <p>$19.99</p>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="bookcovers/afterdark.png" alt="After Dark book cover" class="item-image">
+                <div class="item-details">
+                    <h3>After Dark</h3>
+                    <p>Haruki Murakami</p>
+                    <p>Paperback</p>
+                    <p>Quantity: 1</p>
+                    <p>$14.99</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- END OF SHOPPING CART ITEMS -->
+
+
+
+        <!-- START OF PAYMENT SUMMARY -->
+        <div class="payment-summary">
+
+            <!-- PAYMENT SUMMARY HEADER -->
+            <h3>Payment Summary</h3>
+
+            <!-- START OF PAYMENT SUMMARY ITEMS -->
+            <div class = "payment-summary-rows">
+                <div class="payment-summary-row">
+                    <p>Subtotal: </p>
+                    <p> $34.98</p>
+                </div>
+                <div class="payment-summary-row" id = "payment-summary-item">
+                    <p>Kafka on the shore:</p>
+                    <p>$19.99</p>
+                </div>
+                <div class="payment-summary-row" id = "payment-summary-item">
+                    <p>After Dark:</p>
+                    <p>$14.99</p>
+                </div>
+                <div class="payment-summary-row">
+                    <p>Shipping:</p>
+                    <p>$5.99</p>
+                </div>
+                <div class="payment-summary-row">
+                    <p>Estimated Tax:</p>
+                    <p> $0.00</p>
+                </div>
+            </div>
+            <!-- END OF PAYMENT SUMMARY ITEMS -->
+            
+            <!-- SEPRATES PAYMENTS SUMMARY SECTIONS -->
+            <strong> <hr></strong>
+
+            <!-- ORDER TOTAL -->
+            <div class="payment-summary-row">
+                    <p>Order Total: </p>
+                    <p> $40.97</p>
+            </div>
+            
+            <a href="shipping.html"><button type="button">Continue to Shipping and Billing</button></a>
+        </div>
+        <!-- END OF PAYMENT SUMMARY -->
+
+    </div>
+
+</body>
+</html> 

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shipping - Ink</title>
+    <link rel="stylesheet" href="style-topmenu.css">
+    <link rel="stylesheet" href="style-shipping.css">
+    <script src="topmenu.js"></script>
+</head>
+
+<body>
+
+    <!-- PAGE HEADER -->
+    <h2 class="shipping-heading">Shipping and Billing</h2>
+
+    <!-- START OF SHIPPING AND BILLING -->
+    <div class="shipping-container">
+
+        <!-- START OF SHIPPING AND BILLING FORM -->
+        <form id="shipping-form" action="/submit-order" method="post">
+
+            <!-- START OF SHIPPING FORM -->
+            <div class="form-section">
+
+                <!-- SECTION HEADER -->
+                <h3>Shipping Address</h3>
+                <div class="form-section-row">
+                    <div>
+                        <label for="shipping-first-name">*First Name</label>
+                        <input type="text" id="shipping-first-name" name="shipping_first_name" required>
+                    </div>
+                    <div><label for="shipping-last-name">*Last Name</label>
+                        <input type="text" id="shipping-last-name" name="shipping_last_name" required>
+                    </div>
+                </div>
+
+                <div class="form-section-row">
+                </div>
+                <div class="form-section-row">
+                    <div><label for="shipping-address">*Street Address</label>
+                        <input type="text" id="shipping-address" name="shipping_address" required>
+                    </div>
+
+                </div>
+                <div class="form-section-row">
+                    <div><label for="apt-suite-unit">Apt/Suite/Unit</label>
+                        <input type="text" id="apt-suite-unit" name="apt-suite-unit" required>
+                    </div>
+                </div>
+                <div class="form-section-row">
+                    <div><label for="shipping-city">*City</label>
+                        <input type="text" id="shipping-city" name="shipping_city" required>
+                    </div>
+                    <div>
+                        <label for="shipping-state">*State</label>
+                        <input type="text" id="shipping-state" name="shipping_state" required>
+                    </div>
+
+                </div>
+
+                <div class="form-section-row">
+                    <div><label for="shipping-zip">*Zip Code</label>
+                        <input type="text" id="shipping-zip" name="shipping_zip" required>
+                    </div>
+                    <div> <label for="shipping-phone">*Phone Number</label>
+                        <input type="tel" id="shipping-phone" name="shipping_phone" required>
+                    </div>
+
+                </div>
+            </div>
+            <!-- END OF SHIPPING FORM -->
+            
+
+
+            <!-- START OF PAYMENT FORM -->
+            <div class="form-section-middle">
+                <div class="form-section">
+
+                    <!-- SECTION TITLE -->
+                    <h3>Payment Method</h3>
+
+                    <!-- START OF BILLING FORM -->
+                    <div class="form-section-row">
+                        <div><label for="card-number">*Card Number</label>
+                            <input type="text" id="card-number" name="card_number" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section-row">
+                        <div><label for="name-on-card">*Name on Card</label>
+                            <input type="text" id="name-on-card" name="name_on_card" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section-row">
+                        <div><label for="expiration-date">*Expiration Date</label>
+                            <input type="text" id="expiration-date" name="expiration_date" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section-row">
+                        <div><label for="security-code">*Security Code</label>
+                            <input type="text" id="security-code" name="security_code" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section-row">
+                        <div id="form-section-row-2"><input type="checkbox" id="same-address" name="same_address">
+                            <label for="same-address">Use same shipping address as billing address</label>
+                        </div>
+                    </div>
+ 
+                </div>
+                <!-- END OF BILLING FORM -->
+
+                <!-- START OF BILLING ADDRESS FORM -->
+                <div class="form-section">
+                    <div class="form-section-row">
+                        <div>
+                            <label for="shipping-first-name">*First Name</label>
+                            <input type="text" id="shipping-first-name" name="shipping_first_name" required>
+                        </div>
+                        <div><label for="shipping-last-name">*Last Name</label>
+                            <input type="text" id="shipping-last-name" name="shipping_last_name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section-row"></div>
+                    
+                    <div class="form-section-row">
+                        <div><label for="shipping-address">*Street Address</label>
+                            <input type="text" id="shipping-address" name="shipping_address" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section-row">
+                        <div><label for="apt-suite-unit">Apt/Suite/Unit</label>
+                            <input type="text" id="apt-suite-unit" name="apt-suite-unit" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-section-row">
+                        <div><label for="shipping-city">*City</label>
+                            <input type="text" id="shipping-city" name="shipping_city" required>
+                        </div>
+
+                        <div>
+                            <label for="shipping-state">*State</label>
+                            <input type="text" id="shipping-state" name="shipping_state" required>
+                        </div>
+                    </div>
+
+                    <div class="form-section-row">
+                        <div><label for="shipping-zip">*Zip Code</label>
+                            <input type="text" id="shipping-zip" name="shipping_zip" required>
+                        </div>
+
+                        <div> <label for="shipping-phone">*Phone Number</label>
+                            <input type="tel" id="shipping-phone" name="shipping_phone" required>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- END OF BILLING ADDRESS FORM -->
+
+            </div>
+            <!-- END OF PAYMENT FORM -->
+
+
+        </form>
+
+        <!-- START OF PAYMENT SUMMARY -->
+        <div class="payment-summary">
+
+            <!-- SECTION TITLE -->
+            <h3>Payment Summary</h3>
+
+            <div class="payment-summary-rows">
+                <div class="payment-summary-row">
+                    <p>Subtotal: </p>
+                    <p> $34.98</p>
+                </div>
+                <div class="payment-summary-row" id="payment-summary-item">
+                    <p>Kafka on the shore:</p>
+                    <p>$19.99</p>
+                </div>
+                <div class="payment-summary-row" id="payment-summary-item">
+                    <p>After Dark:</p>
+                    <p>$14.99</p>
+                </div>
+                <div class="payment-summary-row">
+                    <p>Shipping:</p>
+                    <p>$5.99</p>
+                </div>
+                <div class="payment-summary-row">
+                    <p>Estimated Tax:</p>
+                    <p> $0.00</p>
+                </div>
+            </div>
+
+            <strong>
+                <hr>
+            </strong>
+            <div class="payment-summary-row">
+                <p>Order Total: </p>
+                <p> $40.97</p>
+            </div>
+
+            <a href="order_summary.html"><button type="button">Continue to Summary Page</button></a>
+        </div>
+        <!-- END OF PAYMENT SUMMARY -->
+
+    </div>
+    <!-- END OF SHIPPING AND BILLING -->
+
+    
+    <script src="shopping_cart.js"></script>
+</body>
+</html>

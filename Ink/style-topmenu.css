@@ -1,0 +1,220 @@
+@import url('InkutAntiqua/inkutantiqua.css');
+
+*
+{
+    box-sizing: content-box;
+}
+
+
+/*
+    background color of the top menu
+    the website should be the same color
+ */
+.menu
+{
+    background-color: #f2e7d5;
+    /* or #dac4a4 */
+    
+}
+
+
+.upper-menu
+{
+    display: flex;
+}
+
+
+.contact
+{
+    display: flex;
+}
+
+
+/* 
+    sizing and stylization of the contact section of the header
+    text of most of the website should also be in the same color
+*/
+.contact h5
+{
+   font-family: 'IA_regular';
+   color: #533317;
+   padding-right: 40px;
+   padding-left: 15px;
+   margin: 0px;
+   height:40px;
+}
+
+
+.upper-profile
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+/* 
+    sizing and stylization of the profile section of the menu
+*/
+.upper-profile h5
+{
+    font-family: 'IA_regular';
+    color: #533317;
+    padding-right: 25px;
+    padding-left: 5px;
+    margin: 0px;
+    height:40px;
+    padding-left: 10px;
+}
+
+.upper-menu img
+{
+    padding-top: 10px;
+    
+}
+
+
+/* line that separates the upper and lower sections */
+.upper-menu-line
+{
+    height: 4px;
+    background: #533317;
+}
+
+
+.title a
+{
+    text-decoration: none;
+}
+
+/* 
+    sizing and stylization of the title
+*/
+.title h1
+{
+    font-family: 'IA_regular';
+    color: #533317;
+    padding-left: 5px;
+    padding-right: 35px;
+    margin: 0px;
+}
+
+
+
+/* START OF CSS PORTION FOR DROP DOWN MENU */
+.options
+{
+    display: flex;
+}
+
+.selections ul
+{
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+}
+
+
+/* 
+    styles and removes list decorations
+*/
+.selections ul li
+{
+    font-family: 'IA_regular';
+    color: #533317;
+    list-style: none;
+    padding-right: 75px;
+    margin: 0px;
+}
+
+/* 
+    styles and removes link decorations
+*/
+.selections a
+{
+    font-family: 'IA_regular';
+    color: #533317;
+    text-decoration: none;
+    display: block;
+    background-color: #f2e7d5;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.selection-dropdown
+{
+    position: relative;
+    display: inline-Block;
+}
+
+/* 
+    holds the contents of the menu, and is revealed until it is hovered
+        over, as shown below
+*/
+.selection-dropdown-content
+{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    min-width: 75px;
+    font-size: 10px;
+}
+
+.selection-dropdown-content a:hover
+{
+    background-color: #f2e7d5;
+}
+
+/* 
+    reveals the contents of the drop down menu when the mouse
+        is hovered over the text
+*/
+.selection-dropdown:hover .selection-dropdown-content
+{
+    display: block;
+}
+/* END OF CSS PORTION FOR DROP DOWN MENU */
+
+
+
+/* 
+    the following three classes were used for the sizing and stylization of
+    the search bar
+*/
+.search 
+{
+    margin-left: auto;
+    margin-right: 0;
+    width: 450px;
+
+}
+
+.search input
+{
+    font-family: "IA_regular";
+    font-size: 12px;
+    background-color: #f2e7d5;
+    border-color: #533317;
+    border-width: 2px;
+    border-radius: 10px;
+    height: 30px;
+    /* width: 500px; */
+    width: 95%;
+    margin-right: 0px;
+    margin-top: 25px;
+    padding: 0px;
+    
+}
+
+.search input textarea
+{
+    color: #533317;
+}
+
+.shopping-cart img
+{
+    padding-top: 28px;
+    padding-left: 5px;
+    padding-right: 25px;
+}

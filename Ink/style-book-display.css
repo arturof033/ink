@@ -1,0 +1,143 @@
+@import url('InkutAntiqua/inkutantiqua.css');
+
+*
+{
+    background: #f2e7d5;
+}
+
+body
+{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.book-display
+{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    font-family: 'IA_regular';
+    color: #533317;
+    position: absolute;
+    
+    /* div takes up 100% available space */
+    width: 100%;
+}
+
+.book-cover
+{
+    /* div takes up 40% of available space */
+    width: 40%;
+    position: relative;
+
+    /* items center of div */
+    text-align: center;
+
+    /* border for reference */
+    border-color: #533317;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.book-cover img
+{
+    height: 350px;
+
+}
+
+.book-cover h2
+{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.book-cover button
+{
+    background-color: #f2e7d5;
+    color: #533317;
+    text-align: center;
+    text-decoration: none;
+    font-family: "IA_regular";
+    font-size: 10px;
+    border-color: #533317;
+    border-radius: 5px;
+    border-width: 2px;
+
+}
+
+.book-cover button:hover
+{
+    background-color: #533317;
+    color: #f2e7d5;
+}
+
+.book-information
+{
+    width: 100%;
+    position: relative;
+
+    /* border for reference */
+    border-color: #533317;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.book-information .book-title h2
+{
+    font-size: 30px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+    font-family: "IA_medium";
+}
+
+.book-information .book-title h3 
+{
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-family: "IA_light";
+}
+
+.book-information .book-title a
+{
+    color: #533317;
+}
+
+.book-information .book-description 
+{
+    max-width: 800px;
+    padding-bottom: 50px;
+}
+
+.book-information .book-description p
+{
+    font-size: 13px;
+}
+
+.product-details h4
+{
+    font-family: "IA_medium";
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+
+.product-details p
+{
+    font-family: "IA_light";
+    font-size: 11px;
+}
+
+
+
+
+

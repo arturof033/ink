@@ -1,0 +1,134 @@
+@import url('InkutAntiqua/inkutantiqua.css');
+
+*
+{
+    background: #f2e7d5;
+}
+
+body
+{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.author-display .head-shot
+{
+    text-align: center;
+}
+
+.author-display .head-shot img
+{
+    height: 200px;
+    border-radius: 30px;
+}
+
+.author-display .author-name
+{
+    color: #533317;
+    font-family: "IA_Bold";
+    font-size: 10px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    line-height: 20px;
+}
+
+.author-description
+{
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.author-description .biography p
+{
+    color: #533317;
+    font-family: "IA_regular";
+    font-size: 10px;
+}
+
+.author-description a
+{
+    color: #533317;
+    font-family: "IA_bold";
+    font-size: 10px;
+}
+
+.author-description .social
+{
+    display: flex;
+}
+
+.author-description .social h5
+{
+    width: 100%;
+}
+
+
+
+/* The following style the slider at the bottom of the page */
+.author-books
+{
+    background-size: cover;
+    background-position: center;
+}
+
+.author-books 
+{
+    gap: 1.5 rem;
+}
+
+.author-books .row-title h3
+{
+    font-family: 'IA_regular';
+    color: #533317;
+    font-size: 1rem;
+    padding-left: 50px;
+}
+
+.author-books  .books-slider
+{
+    flex: 1 1 42 rem;
+    text-align: center;
+    margin-top: 2rem;
+    max-width: fit-content;
+}
+
+.author-books  .books-slider a 
+{
+    text-decoration: none;
+    font-family: 'IA_regular';
+    color: #533317;
+}
+
+
+.author-books  .books-slider a h4
+{
+    margin: 0;
+    padding-top: 0px;
+    line-height: 15px;
+}
+
+.author-books  .books-slider a h5
+{
+    margin: 0;
+    padding-top: 5px;  
+    line-height: 20px; 
+    font-size: 8px;
+}
+
+.author-books  .books-slider a .book-price
+{
+    font-size: 10px;
+}
+
+.author-books  .books-slider a img
+{
+    height: 15rem;
+}
+
+.author-books  .books-slider a:hover img
+{
+    transform: scale(.9);
+}

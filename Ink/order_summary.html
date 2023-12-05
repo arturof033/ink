@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+
+    <!-- imports top menu html file -->
+    <script src="topmenu.js"></script>
+
+    <link rel="stylesheet" href="style-order-summary.css">
+</head>
+<body>
+
+    <!-- PAGE HEADER -->
+    <h2 class="summary-heading">Order Summary</h2>
+
+    <!-- START OF SUMMARY CONTAINER -->
+    <div class="summary-container">
+
+        <!-- START OF LEFT SIDE SUMMARY -->
+        <div class = "order-summary">
+
+            <!-- START OF ORDER SUMMARY -->
+            <div class="order-summary-box">
+                <h3>Order</h3>
+                <hr>
+                <div class="order-summary-box-row">
+                    <p>$19.99</p>
+                    <div class="order-summary-box-row-items">
+                        <h3>Kafka On the Shore</h3>
+                        <p>Haruki Murakami</p>
+                        <p><small>Quantity: 1        Paperback</small> </p>
+                    </div>
+                </div>
+                <div class="order-summary-box-row">
+                    <p>$19.99</p>
+                    <div class="order-summary-box-row-items">
+                        <h3>After Dark</h3>
+                        <p>Haruki Murakami</p>
+                        <p><small>Quantity: 1        Paperback</small> </p>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF ORDER SUMMARY -->
+
+
+
+            <!-- START OF SHIPPING SUMMARY -->
+            <div class="order-summary-box">
+                <h3>Shipping Address</h3>
+                <hr>
+                <p>John Deer</p>
+                <p>12345 Fake Street</p>
+                <p>Fake City, FS 12345</p>
+            </div>
+            <!-- END OF SHIPPING SUMMARY -->
+
+
+
+            <!-- START OF PAYMENT SUMMARY -->
+            <div class="order-summary-box">
+                <h3>Payment Method</h3>
+                <hr>
+                <p>Visa ending in ***0123 </p>
+            </div>
+            <!-- END OF PAYMENT SUMMARY -->
+
+        </div>
+        <!-- END OF LEFT SIDE SUMMARY -->
+
+
+
+        <!-- START OF RIGHT SIDE SUMMARY -->
+        <div class="payment-summary">
+
+            <!-- SECTION TITLE -->
+            <h3>Payment Summary</h3>
+
+            <!-- START OF PAYMENT SUMMARY -->
+            <div class="payment-summary-rows">
+                <div class="payment-summary-row">
+                    <p>Subtotal: </p>
+                    <p> $34.98</p>
+                </div>
+                <div class="payment-summary-row" id="payment-summary-item">
+                    <p>Kafka on the shore:</p>
+                    <p>$19.99</p>
+                </div>
+                <div class="payment-summary-row" id="payment-summary-item">
+                    <p>After Dark:</p>
+                    <p>$14.99</p>
+                </div>
+                <div class="payment-summary-row">
+                    <p>Shipping:</p>
+                    <p>$5.99</p>
+                </div>
+                <div class="payment-summary-row">
+                    <p>Estimated Tax:</p>
+                    <p> $0.00</p>
+                </div>
+            </div>
+            <!-- END OF PAYMENT SUMMARY -->
+
+            <strong>
+                <hr>
+            </strong>
+
+
+            <!-- ORDER TOTAL -->
+            <div class="payment-summary-row">
+                <p>Order Total: </p>
+                <p> $40.97</p>
+            </div>
+
+            <!-- ORDER CONFIRMATION BUTTON -->
+            <a href="index.html"><button class="payment-summary-button" type="button">Confirm Purchase</button></a>
+
+        </div>
+        <!-- END OF RIGHT SIDE SUMMARY -->
+
+    </div>
+    <!-- END OF SUMMARY CONTAINER -->
+
+    <script src="shopping_cart.js"></script>
+</body>
+</html>

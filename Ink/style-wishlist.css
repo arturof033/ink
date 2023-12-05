@@ -1,0 +1,94 @@
+@import url('InkutAntiqua/inkutantiqua.css');
+
+*
+{
+    box-sizing: content-box;
+    background-color: #f2e7d5;
+    font-family: "IA_regular";
+    color: #533317;
+}
+
+.wishlist-title
+{
+    padding-left: 40px;
+}
+
+.wishlist
+{
+    padding-left: 50px;
+    padding-right: 70px;
+}
+
+.book
+{
+    display: flex;
+}
+
+.books-list
+{
+    list-style: none;
+}
+
+.book-cover
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.book-cover img
+{
+    height: 175px;
+    padding-top: 9px;
+}
+
+.book-info
+{
+    padding-left: 30px;
+}
+
+.book-info h2
+{
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.book-info p
+{
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 11px;
+}
+
+.wishlist-edit
+{
+    padding-top: 65px;
+    padding-right: 20px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.wishlist-edit button
+{
+    background-color: #f2e7d5;
+    color: #533317;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #533317;
+}
+
+.wishlist-edit button:hover
+{
+    background-color: #533317;
+    color: #f2e7d5;
+}
+
+.wishlist hr
+{
+    margin: 20px 0px 20px 0px;
+    
+    border-top: 2px dashed #533317;
+}

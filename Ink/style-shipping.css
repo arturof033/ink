@@ -1,0 +1,177 @@
+@import url('InkutAntiqua/inkutantiqua.css');
+
+*
+{
+    background-color: #f2e7d5;
+    font-family: 'IA_regular';
+    color: #533317;
+
+}
+
+
+.shipping-container {
+    width: 93%;
+    margin: 0 auto;
+    padding: 2%;
+    background-color: #f2e7d5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping-heading{
+    margin-left: 5%;
+}
+
+h2, h3 {
+    color: #533317;
+    margin-bottom: 10px;
+}
+
+#shipping-form{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: space-around;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 350px;
+}
+
+.form-section label
+{
+    color:#533317;
+    font-size: 10px;
+}
+
+
+.form-section-middle{
+    display: flex;
+    flex-direction: column;
+}
+.form-section-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#form-section-row-2{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-bottom: 10%;
+    /* justify-content: space-between; */
+}
+
+.form-section h3 {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color:#f2e7d5;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: 160%;
+    height: 25px;
+    margin-bottom: 15px;
+    border: 1px solid #533317;
+    border-radius: 4px;
+    font-size: 14px;
+    background:#f2e7d5;
+    color:#533317;
+    font-size: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#shipping-first-name{
+    width: 80%;
+}
+
+#shipping-last-name{
+    width: 85%;
+}
+
+#shipping-city{
+    width: 85%;
+}
+
+#shipping-state{
+    width: 85%;
+}
+#shipping-zip{
+    width: 85%;
+}
+#shipping-phone{
+    width: 85%;
+}
+
+#apt-suite-unit{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.payment-summary {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 350px;
+    padding: 0% 2%;
+    height: 600px;
+}
+
+.payment-summary-rows{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.payment-summary-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+#payment-summary-item{
+font-size: small;
+font-weight: normal;
+margin-left: 5%;
+
+}
+
+
+button {
+    background-color:#f2e7d5;
+    color: #533317;
+    border-color: #533317;
+    border-radius: 4px;
+    border-width: 2px;
+    width: 335px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #533317;
+    color: #f2e7d5;
+    text-align: center;
+}

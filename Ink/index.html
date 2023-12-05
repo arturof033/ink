@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- imports top menu html file -->
+    <script src="topmenu.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="style-index.css">
+
+</head>
+<body>
+
+    <!-- START OF MAIN DISPLAY -->
+    <div class="main-display">
+
+        <!-- START OF ROW -->
+        <div class="row">
+
+            <hr>
+
+            <!-- START OF FEATURED -->
+            <div class="row-title featured">
+                <h3>Featured Titles</h3>
+            </div>
+
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="bookcovers/dubliners.jpg" alt="">
+                         <h4>Dubliners</h4>
+                         <h5>James Joyce</h5>
+                         <h5 class="book-price">$4.99</h5>
+                    </a>
+                    <a href="book-display.html" class="swiper-slide"><img src="bookcovers/kafkaontheshore.jpeg" alt="">
+                        <h4> Kafka on the Shore</h4>
+                        <h5>Haruki Murakami</h5>
+                        <h5 class="book-price">$19.99</h5>
+
+                    </a>
+                    <a href="#" class="swiper-slide"><img src="bookcovers/OfMiceAndMen.jpg" alt="">
+                        <h4> Of Mice and Men</h4>
+                        <h5>John Steinbeck</h5>
+                        <h5 class="book-price">$9.99</h5>
+                    </a>
+                    <a href="#" class="swiper-slide"><img src="bookcovers/symposium.jpeg" alt="">
+                        <h4> Symposium</h4>
+                        <h5>Plato</h5>
+                        <h5 class="book-price">$9.99</h5>
+                    </a>
+                    <a href="#" class="swiper-slide"><img src="bookcovers/thetrial.jpeg" alt="">
+                        <h4> The Trial</h4>
+                        <h5>Franz Kafka</h5>
+                        <h5 class="book-price">$14.99</h5>
+                    </a>
+                    <a href="#" class="swiper-slide"><img src="bookcovers/theybothdieatheend.jpg" alt="">
+                        <h4> They Both Die at the End</h4>
+                        <h5>Adam Silvera</h5>
+                        <h5 class="book-price">$19.99</h5>
+                    </a>
+                </div>
+            </div>
+            <!-- END OF FEATURED -->
+
+
+
+            <!-- LINE BREAKS AND HORIZONTAL LINES TO SEPARATE SLIDERS -->
+            <br>
+            <br>
+            <hr>
+
+
+
+            <!-- START OF NEW ARRIVALS -->
+            <div class="row-title new-arrivals">
+                <h3>New Arrivals</h3>
+            </div>
+
+            <!-- Book slider that slides through list using the mouse pointer -->
+            <div class="swiper books-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide"><img src="bookcovers/funhome.jpg" alt="">
+                         <h4>Fun Home</h4>
+                         <h5>Alison Bechdel</h5>
+                         <h5 class="book-price">$14.99</h5>
+                    </a>
+                    <a href="#" class="swiper-slide"><img src="bookcovers/brightlightsbigcity.jpg" alt="">
+                        <h4>Bright Lights, Big City</h4>
+                        <h5>Jay McInerney</h5>
+                        <h5 class="book-price">$11.99</h5>
+
+                    </a>
+                    <a href="#" class="swiper-slide"><img src="bookcovers/oldmanandthesea.jpg" alt="">
+                        <h4>The Old Man and the Sea</h4>
+                        <h5>Earnest Hemingway</h5>
+                        <h5 class="book-price">$9.99</h5>
+                    </a>
+                    <a href="#" class="swiper-slide"><img src="bookcovers/bravenewworld.jpg" alt="">
+                        <h4>Brave New World</h4>
+                        <h5>Aldous Huxley</h5>
+                        <h5 class="book-price">$14.99</h5>
+                    </a>
+                    <a href="#" class="swiper-slide"><img src="bookcovers/vanityfair.jpeg" alt="">
+                        <h4>Vanity Fair</h4>
+                        <h5>William Makepeace Thackery</h5>
+                        <h5 class="book-price">$19.99</h5>
+                    </a>
+                    <a href="#" class="swiper-slide"><img src="bookcovers/blithdedaleromance.jpeg" alt="">
+                        <h4>The Blithedale Romance</h4>
+                        <h5>Nathaniel Hawthorne</h5>
+                        <h5 class="book-price">$6.99</h5>
+                    </a>
+                </div>
+            </div>
+            <!-- END OF NEW ARRIVALS -->
+
+            
+        </div>
+        <!-- END OF ROW -->
+
+
+    </div>
+    <!-- END OF MAIN DISPLAY -->
+
+    <!-- JS FILES USED FOR SLIDER -->
+    <!-- the following two files are used to link the javascript files used to 
+            create the book slider -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script src="jscript.js"></script>
+
+
+</body>
+</html>

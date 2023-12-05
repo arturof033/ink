@@ -1,0 +1,79 @@
+@import url('InkutAntiqua/inkutantiqua.css');
+
+*
+{
+    background: #f2e7d5;
+}
+
+.main-display hr
+{
+    border-top: dashed 2px;
+    color: #533317;
+}
+
+.main-display
+{
+    background-size: cover;
+    background-position: center;
+}
+
+/* gap between books */
+.main-display .row
+{
+    gap: 1.5 rem;
+}
+
+.main-display .row .row-title h3
+{
+    font-family: 'IA_regular';
+    color: #533317;
+    font-size: 1rem;
+    padding-left: 50px;
+}
+
+.main-display .row .books-slider
+{
+    flex: 1 1 42 rem;
+    text-align: center;
+    margin-top: 2rem;
+    max-width: fit-content;
+}
+
+.main-display .row .books-slider a 
+{
+    text-decoration: none;
+    font-family: 'IA_regular';
+    color: #533317;
+}
+
+
+.main-display .row .books-slider a h4
+{
+    margin: 0;
+    padding-top: 0px;
+    line-height: 15px;
+}
+
+.main-display .row .books-slider a h5
+{
+    margin: 0;
+    padding-top: 5px;  
+    line-height: 20px; 
+    font-size: 8px;
+}
+
+.main-display .row .books-slider a .book-price
+{
+    font-size: 10px;
+}
+
+.main-display .row .books-slider a img
+{
+    height: 15rem;
+}
+
+/* changes the size of the book cover when you hover over */
+.main-display .row .books-slider a:hover img
+{
+    transform: scale(.9);
+}
