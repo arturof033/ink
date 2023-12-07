@@ -42,7 +42,7 @@ document.write('\
             <img src="icons/hearticon.png" alt="heart icon" height="18px" width="auto">\
             <a href="wishlist.html"><h5>Wishlist</h5></a>\
             <img src="icons/profileicon.png" alt="profile icon" height="18px" width="auto">\
-            <a href="login-display.html"><h5>Charlie Dompler</h5></a>\
+            <a href="login-display.html"><h5>John Deer</h5></a>\
             </div>\
             <!-- END OF PROFILE SECTION --> \
 \
